@@ -13,9 +13,9 @@
     min-height: 400px;
     min-width: 200px;
 }
-.footer{
+/*.footer{
   width: 50%;    
-}
+}*/
 .footer:partedos{
     min-height: 80px;
     max-height: 80px;
@@ -29,4 +29,19 @@
 .h1{
     align-items: center;
     size: 2.5em;
+}
+.h3{
+    size: 1.5em;
+    font-weight: bold;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f1f1f1; /* Color de fondo para diferenciarlo */
+}
+
+.parte-izquierda, .parte-derecha {
+    flex: 1; /* Esto permite que cada parte tome la mitad del espacio disponible */    
+    margin: 0 10px; /* Espaciado entre las partes */
 }
