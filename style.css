@@ -1,20 +1,32 @@
-header {
+.header {
     max-width: 1200px;
     margin: 0 auto; /* Esto centra el header horizontalmente */
-    
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
 }
-main {
+.main {
     width: 75%;
 }
-aside {
+.aside {
     width: 25%;
     min-height: 400px;
     min-width: 200px;
 }
-footer{
+.footer{
   width: 50%;    
 }
-footer:partedos{
+.footer:partedos{
     min-height: 80px;
     max-height: 80px;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+.h1{
+    align-items: center;
+    size: 2.5em;
 }
