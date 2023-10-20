@@ -13,9 +13,6 @@
     min-height: 400px;
     min-width: 200px;
 }
-/*.footer{
-  width: 50%;    
-}*/
 .footer:partedos{
     min-height: 80px;
     max-height: 80px;
@@ -44,4 +41,13 @@
 .parte-izquierda, .parte-derecha {
     flex: 1; /* Esto permite que cada parte tome la mitad del espacio disponible */    
     margin: 0 10px; /* Espaciado entre las partes */
+}
+
+.parte-derecha {
+    display: flex; 
+    align-items: center; /* Centrado vertical */
+    max-height: 50%;  
+    overflow: hidden; /* Oculta el contenido que exceda el max-height */
+    max-height: 5em; /* Establece la altura máxima en 5 líneas */
+    /*overflow: auto; /* Agrega una barra de desplazamiento si se excede la altura máxima */
 }
